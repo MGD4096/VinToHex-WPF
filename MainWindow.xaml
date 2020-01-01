@@ -1,0 +1,24 @@
+﻿<Window x:Class="VinToHex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VinToHex"
+        mc:Ignorable="d"
+        Title="VinToHex" Height="273" Width="800">
+    <Grid Height="201">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="359*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Vin in HEX" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="vhex" HorizontalAlignment="Left" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="758" FontSize="18" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Vin in ASCII" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="vascii" HorizontalAlignment="Left" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="758" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button Content="Vin To ASCII" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Width="368" Grid.ColumnSpan="2" Click="Button_Click"/>
+        <Button Content="Vin To HEX" HorizontalAlignment="Left" Margin="301,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.631,0.303" Width="385" Grid.Column="1" Click="Button_Click_1"/>
+        <Label x:Name="vinhexerror" Content="" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Height="23" Grid.ColumnSpan="2" Width="758"/>
+        <Label x:Name="vinasciierror" Content="" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="758"/>
+
+    </Grid>
+</Window>

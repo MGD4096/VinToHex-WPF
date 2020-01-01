@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "IKVM/8.1.5717": {
+        "type": "package",
+        "compile": {
+          "lib/IKVM.AWT.WinForms.dll": {},
+          "lib/IKVM.OpenJDK.Beans.dll": {},
+          "lib/IKVM.OpenJDK.Charsets.dll": {},
+          "lib/IKVM.OpenJDK.Cldrdata.dll": {},
+          "lib/IKVM.OpenJDK.Corba.dll": {},
+          "lib/IKVM.OpenJDK.Core.dll": {},
+          "lib/IKVM.OpenJDK.Jdbc.dll": {},
+          "lib/IKVM.OpenJDK.Localedata.dll": {},
+          "lib/IKVM.OpenJDK.Management.dll": {},
+          "lib/IKVM.OpenJDK.Media.dll": {},
+          "lib/IKVM.OpenJDK.Misc.dll": {},
+          "lib/IKVM.OpenJDK.Naming.dll": {},
+          "lib/IKVM.OpenJDK.Nashorn.dll": {},
+          "lib/IKVM.OpenJDK.Remoting.dll": {},
+          "lib/IKVM.OpenJDK.Security.dll": {},
+          "lib/IKVM.OpenJDK.SwingAWT.dll": {},
+          "lib/IKVM.OpenJDK.Text.dll": {},
+          "lib/IKVM.OpenJDK.Tools.dll": {},
+          "lib/IKVM.OpenJDK.Util.dll": {},
+          "lib/IKVM.OpenJDK.XML.API.dll": {},
+          "lib/IKVM.OpenJDK.XML.Bind.dll": {},
+          "lib/IKVM.OpenJDK.XML.Crypto.dll": {},
+          "lib/IKVM.OpenJDK.XML.Parse.dll": {},
+          "lib/IKVM.OpenJDK.XML.Transform.dll": {},
+          "lib/IKVM.OpenJDK.XML.WebServices.dll": {},
+          "lib/IKVM.OpenJDK.XML.XPath.dll": {},
+          "lib/IKVM.Runtime.JNI.dll": {},
+          "lib/IKVM.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.AWT.WinForms.dll": {},
+          "lib/IKVM.OpenJDK.Beans.dll": {},
+          "lib/IKVM.OpenJDK.Charsets.dll": {},
+          "lib/IKVM.OpenJDK.Cldrdata.dll": {},
+          "lib/IKVM.OpenJDK.Corba.dll": {},
+          "lib/IKVM.OpenJDK.Core.dll": {},
+          "lib/IKVM.OpenJDK.Jdbc.dll": {},
+          "lib/IKVM.OpenJDK.Localedata.dll": {},
+          "lib/IKVM.OpenJDK.Management.dll": {},
+          "lib/IKVM.OpenJDK.Media.dll": {},
+          "lib/IKVM.OpenJDK.Misc.dll": {},
+          "lib/IKVM.OpenJDK.Naming.dll": {},
+          "lib/IKVM.OpenJDK.Nashorn.dll": {},
+          "lib/IKVM.OpenJDK.Remoting.dll": {},
+          "lib/IKVM.OpenJDK.Security.dll": {},
+          "lib/IKVM.OpenJDK.SwingAWT.dll": {},
+          "lib/IKVM.OpenJDK.Text.dll": {},
+          "lib/IKVM.OpenJDK.Tools.dll": {},
+          "lib/IKVM.OpenJDK.Util.dll": {},
+          "lib/IKVM.OpenJDK.XML.API.dll": {},
+          "lib/IKVM.OpenJDK.XML.Bind.dll": {},
+          "lib/IKVM.OpenJDK.XML.Crypto.dll": {},
+          "lib/IKVM.OpenJDK.XML.Parse.dll": {},
+          "lib/IKVM.OpenJDK.XML.Transform.dll": {},
+          "lib/IKVM.OpenJDK.XML.WebServices.dll": {},
+          "lib/IKVM.OpenJDK.XML.XPath.dll": {},
+          "lib/IKVM.Runtime.JNI.dll": {},
+          "lib/IKVM.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IKVM/8.1.5717": {
+      "sha512": "5olx8s2XYTfu6xu59ozQi9Jz5s6IHdJTK+XEFKpPxxVHoQWphb2G78btQTu1Z69I18n0tpcJ/EK5Dg2wmHJQIA==",
+      "type": "package",
+      "path": "ikvm/8.1.5717",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD_PARTY_README",
+        "TRADEMARK",
+        "ikvm.8.1.5717.nupkg.sha512",
+        "ikvm.nuspec",
+        "lib/IKVM.AWT.WinForms.dll",
+        "lib/IKVM.OpenJDK.Beans.dll",
+        "lib/IKVM.OpenJDK.Charsets.dll",
+        "lib/IKVM.OpenJDK.Cldrdata.dll",
+        "lib/IKVM.OpenJDK.Corba.dll",
+        "lib/IKVM.OpenJDK.Core.dll",
+        "lib/IKVM.OpenJDK.Jdbc.dll",
+        "lib/IKVM.OpenJDK.Localedata.dll",
+        "lib/IKVM.OpenJDK.Management.dll",
+        "lib/IKVM.OpenJDK.Media.dll",
+        "lib/IKVM.OpenJDK.Misc.dll",
+        "lib/IKVM.OpenJDK.Naming.dll",
+        "lib/IKVM.OpenJDK.Nashorn.dll",
+        "lib/IKVM.OpenJDK.Remoting.dll",
+        "lib/IKVM.OpenJDK.Security.dll",
+        "lib/IKVM.OpenJDK.SwingAWT.dll",
+        "lib/IKVM.OpenJDK.Text.dll",
+        "lib/IKVM.OpenJDK.Tools.dll",
+        "lib/IKVM.OpenJDK.Util.dll",
+        "lib/IKVM.OpenJDK.XML.API.dll",
+        "lib/IKVM.OpenJDK.XML.Bind.dll",
+        "lib/IKVM.OpenJDK.XML.Crypto.dll",
+        "lib/IKVM.OpenJDK.XML.Parse.dll",
+        "lib/IKVM.OpenJDK.XML.Transform.dll",
+        "lib/IKVM.OpenJDK.XML.WebServices.dll",
+        "lib/IKVM.OpenJDK.XML.XPath.dll",
+        "lib/IKVM.Runtime.JNI.dll",
+        "lib/IKVM.Runtime.dll",
+        "x64/lib/JVM.DLL",
+        "x64/lib/ikvm-native-win32-x64.dll",
+        "x86/lib/JVM.DLL",
+        "x86/lib/ikvm-native-win32-x86.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "IKVM >= 8.1.5717"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MateuszGrzymala\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\VisualStudioWorkspace\\VinToHex\\VinToHex\\VinToHex.csproj",
+      "projectName": "VinToHex",
+      "projectPath": "E:\\VisualStudioWorkspace\\VinToHex\\VinToHex\\VinToHex.csproj",
+      "packagesPath": "C:\\Users\\MateuszGrzymala\\.nuget\\packages\\",
+      "outputPath": "E:\\VisualStudioWorkspace\\VinToHex\\VinToHex\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MateuszGrzymala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "IKVM": {
+            "target": "Package",
+            "version": "[8.1.5717, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „IKVM 8.1.5717” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v3.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}
